@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-  <h3><b>School Library README </b></h3>
+  <h3><b>School Library </b></h3>
 
 </div>
 
@@ -29,23 +29,19 @@
 
 # 📖 [OOP school library] <a name="about-project"></a>
 
-**[school library]** is an application use for registeration of library.
+**[school library]** is an application used for registeration of library.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-
 <details>
   <summary>Ruby</summary>
 </details>
 
-
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
 
 - **[registeration]**
 
@@ -53,32 +49,32 @@
 
 <!-- LIVE DEMO -->
 
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
 To get a local copy up and running, follow these steps.
-
 
 ### Prerequisites
 
-In order to run this project you need: 
+In order to run this project you need:
 
 -Commands: npm install
 
 ### Setup
-* git clone git@github.com:GhostEsso/School_library.git
-* cd School_library
-* git checkout classes_branch
+
+- git clone https://github.com/Errytagedesign/schoolLibrary.git
+- cd schoolLibrary
+- git checkout classBranch
 
 ### Install
+
 -Command: install Ruby
+
 - [OFFICIAL](https://rubyinstaller.org/downloads/)
 
-
 ### Run test
+
 -Command: Run through IRB / Vs Code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -87,11 +83,11 @@ In order to run this project you need:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Essohanam TAMBANA**
+👤 **Sodeeq Awoyemi**
 
-- GitHub: [@GhostEsso](https://github.com/GhostEsso)
-- Twitter: [@TambanaEssohana](https://twitter.com/TambanaEssohana)
-- LinkedIn: [Tambana Essohanam](https://www.linkedin.com/in/essohanam-tambana-62aa081a1/)
+- GitHub: [@githubhandle](https://github.com/Errytagedesign)
+- Twitter: [@twitterhandle](https://twitter.com/errytage)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/errytagedesigns/)
 
 <!-- FUTURE FEATURES -->
 
@@ -106,16 +102,14 @@ In order to run this project you need:
 
 Contributions, issues, and feature requests are welcome!
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
 If you like my school library project kindly comment or Follow me on LinkedIn, Twitter & twitter and always Your feedback will be really appreciated I have created issue if you want to share.
-Thanks. 
+Thanks.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

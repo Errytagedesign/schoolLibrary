@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2023 Essohanam TAMBANA
+Copyright (c) 2023 Sodeeq Olaide Awoyemi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "School_library"), to deal
