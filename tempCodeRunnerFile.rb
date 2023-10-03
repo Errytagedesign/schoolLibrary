@@ -1,3 +1,1 @@
-def attr_name=(val)
-  #   @attr_name = val
-  # end
+p animal.bring_a_stick

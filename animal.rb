@@ -9,15 +9,11 @@ class Animal
   end
 
   def speak
-    if @type == 'dog'
-      'wof woff'
-    elsif @type == 'spider'
-      '...'
-    end
+    'grrrr...'
   end
 end
 
-animal = Animal.new('cat', 4)
+animal = Animal.new('dog', 4, 'stick')
 
 # Set properties using the setter method
 p animal.name
