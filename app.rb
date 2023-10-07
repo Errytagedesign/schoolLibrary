@@ -55,9 +55,9 @@ class App
     parent_permission = gets.chomp.to_s
 
     if parent_permission =~ /^[Yy]/
-      student = Student.new(age, name, parent_permission: true)
+      student = Student.new('Unknown', age, name, parent_permission: true)
     elsif parent_permission =~ /^[Nn]/
-      student = Student.new(age, name, parent_permission: false)
+      student = Student.new('Unknown', age, name, parent_permission: false)
     else
       puts "Error: option has an invalid value (#{parent_permission})"
       return
@@ -77,7 +77,7 @@ class App
     print 'Specialization: '
     specialization = gets.chomp.to_s
 
-    teacher = Teacher.new(age, name, specialization)
+    teacher = Teacher.new(specialization, age, name)
     @people.push(teacher)
     puts 'Person created successfully'
   end
