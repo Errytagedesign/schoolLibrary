@@ -1,19 +1,20 @@
-class Person
-  # shorthand getter and setter for both name and age
+require_relative 'nameable'
+
+class Person < Nameable
   attr_accessor :name, :age
 
-  #  Getter for id
   attr_reader :id
 
-  def initialize(id, age, name: 'Unknown', parent_permission: true)
-    @id = id
+  def initialize(age, name = 'unknown', parent_permission: true)
+    super()
+    @id = Random.rand(1..100)
     @name = name
     @age = age
     @parent_permission = parent_permission
   end
 
-  def can_use_services?
-    of_age? || @parent_permission
+  def correct_name
+    @name
   end
 
   private
@@ -21,13 +22,12 @@ class Person
   def of_age?
     @age >= 18
   end
+
+  public
+
+  def can_use_services?
+    of_age? || @parent_permission
+  end
 end
 
-alaye = Person.new(20, 9, name: 'toke')
-ogbeni = Person.new(10, 9, name: 'toke', parent_permission: false)
-
-# this will be true because i didn't specify parental permission
-p alaye.can_use_services?
-
-# this will be false because i specify parental permission
-p ogbeni.can_use_services?
+Person.new(22, 'maximilianus')
