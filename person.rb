@@ -4,7 +4,7 @@ require_relative 'book'
 require_relative 'rental'
 
 class Person < Nameable
-  attr_accessor :name, :age
+  attr_accessor :name, :age, :rental
 
   attr_reader :id
 
