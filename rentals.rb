@@ -9,9 +9,9 @@ class Rental
     @person = person
   end
 
-  # update the book array in rentasl
+  # update the rental array in book
   book.rentals << self
 
-  # update the person array in rentasl
+  # update the person array in book
   person.rentals << self
 end
